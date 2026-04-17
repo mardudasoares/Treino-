@@ -1,0 +1,96 @@
+body{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    width: 100%;
+    height: 72px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 64px;
+}
+header>img{
+    width: 84px;
+    height: 36px;
+}
+nav{
+    display: flex;
+    width: 390px;
+    height: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-a4{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+header>button{
+    color: white;
+    background-color: black;
+    padding: 8px 20px;
+}
+main{
+    border: 1px solid blue;
+    
+    display: flex;
+     
+}
+aside{
+    display: flex;
+    flex-direction: column;
+
+    width: 560px;
+    height: 353px;
+
+    font-size: 12px;
+    font-weight: 400;
+}
+.aside-tittle{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    padding: 273.5px 80px;
+    gap: 24px;
+}
+
+.aside-tittle > h1{
+    display: flex;
+
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.aside-tittle > p{
+    display: flex;
+
+    font-weight: 400;
+    font-size: 18px;
+}
+
+input{
+    border: 1px solid black;
+    justify-content: center;
+    width: 396px;
+    height: 40px;
+}
+.sign-up > button{
+    display: flex;
+
+    width: 101px;
+    height: 48px;
+    justify-content: center;
+    padding: 12px 24px;
+
+    color: white;
+    background-color: black;
+}
+
+
