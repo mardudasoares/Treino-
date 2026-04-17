@@ -1,0 +1,67 @@
+body{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    width: 100%;
+    height: 72px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 64px;
+}
+header>img{
+    width: 84px;
+    height: 36px;
+}
+nav{
+    display: flex;
+    width: 390px;
+    height: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-a4{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+header>button{
+    color: white;
+    background-color: black;
+    padding: 8px 20px;
+}
+main{
+    border: 1px solid blue;
+    width: 100%;
+    height: 900px;
+
+    display: flex;
+    
+}
+.aside-tittle{
+    width: 720px;
+    height: 900px;
+    display: flex;
+    padding: 273.5px ;
+}
+.aside-tittle > h1{
+    display: flex;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+main>img{
+    display: flex;
+    width: 720;
+    height: 900px;
+    
+
+
+}
+
